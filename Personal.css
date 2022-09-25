@@ -1,0 +1,46 @@
+/* Element Selector */
+body {
+    background-color: #F9F5EB;
+}
+
+h1 {
+    color: rgb(100, 155, 155);
+}
+
+h2 {
+    color: rgb(100, 155, 155);
+    border-style: double;
+    border-width: medium;
+}
+
+h3 {
+    color: rgb(100, 155, 155);
+}
+
+hr {
+    border-color: grey;
+    border-style: dotted none none;
+    width: 5%;
+    border-width: 5px;
+
+}
+
+/* Use of pesudo class */
+label:hover {
+    background-color: rgb(189, 116, 20);
+    border: 2px solid blue;
+}
+
+.button:hover {
+    background-color: #4681f4;
+}
+
+/* Class Selector */
+.profile {
+    height: 150px;
+    width: 150px;
+}
+
+.heading {
+    text-align: center;
+}

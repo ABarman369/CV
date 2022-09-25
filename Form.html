@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form For Joining Us</title>
+    <link rel="stylesheet" href="Personal.css">
+    <link rel="icon" href="personalfavicon.ico">
+</head>
+<body>
+    <h2 class="heading">Fill your ditails to join us</h2>
+    <br><hr><br>
+    <form action="Personal.js" method="post">
+        <div>
+            <label>Name: </label> <input type="text" name="Name">
+        </div><br>
+        <div>
+            <label>Date of Birth: </label><input type="date" name="DOB">
+        </div><br>
+        <div>
+            <label>Upload Adhar Card(Only for identity verification): </label><input type="file" name="Documents">
+        </div><br>
+        <div>
+            <label>Gender: </label>Male <input type="radio" name="Gender">
+                    Female <input type="radio" name="Gender">
+                    Others <input type="radio" name="Gender">
+        </div><br>
+        <div>
+            <label>Phono No: </label><input type="number" name="Ph No.">
+        </div><br>
+        <div>
+            <label>Email: </label><input type="email" name="Email">
+        </div><br>
+        <div>
+            <label>Specialization: </label><select name="specialization">
+                <option value="Web Devlopment">Web Devlopment</option>
+                <option value="SEO">Search Engine Optimaization</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Social Media Manager">Social Media Manager</option>
+                <option value="Social Media Manager">Others</option>
+            </select>
+        </div><br>
+        <div>
+            <strong>Describe about Yourself:-</strong><br>
+            <textarea type="text" name="Biodata" cols="50" rows="10"></textarea>
+        </div><br>
+        <div>
+            <strong>Your profile will be displayed to others: </strong>
+            <input type="checkbox" name="agrement">
+        </div><br>
+        <div>
+            <input type="reset" value="Reset" class="button">
+            <input type="submit" value="Submit now" class="button">
+        </div><br><hr><br>
+    </form>
+</body>
+</html>
